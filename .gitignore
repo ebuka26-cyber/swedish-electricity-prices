@@ -1,0 +1,37 @@
+# Jupyter
+.ipynb_checkpoints/
+Untitled.ipynb
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentials. The notebooks read PG_URL from the repository-root .env via python-dotenv.
+# .env.example is tracked and carries only a placeholder.
+.env
+*.env
+
+# Power BI leftovers. The project no longer ships a dashboard; these files stay
+# on disk but are not part of the repository.
+*.pbix
+theme.json
+
+# Regenerable outputs of the pipeline.
+# notebooks/01_data_cleaning.ipynb rebuilds these from tracked files in data/raw/.
+data/clean/clean_prices_hourly.csv
+data/clean/clean_scb_monthly.csv
+data/clean/clean_temperature_hourly.csv
+data/clean/clean_flows_hourly.csv
+data/clean/clean_generation_hourly.csv
+
+# notebooks/03_build_panels.ipynb rebuilds this from PostgreSQL. 31 MB.
+# data/clean/panel_monthly.csv is 0.1 MB and stays tracked.
+data/clean/panel_hourly.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

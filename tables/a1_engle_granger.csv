@@ -1,0 +1,4 @@
+pair,eg_stat,p_value,crit_5pct,cointegrated_at_5pct
+SE1 and SE2,-17.298,0.0,-3.336,True
+SE3 and SE4,-16.209,0.0,-3.336,True
+SE1 and SE4,-11.288,0.0,-3.336,True

@@ -1,0 +1,5 @@
+term,coef,se,t,p,ci_low,ci_high,model
+Intercept,39.9741,42.6239,0.9378,0.3483,-43.5672,123.5153,SE4 minus SE1 spread
+d_wind_share,-1.0169,0.4538,-2.2406,0.025,-1.9063,-0.1274,SE4 minus SE1 spread
+d_net_position_share,-0.2075,0.2368,-0.8766,0.3807,-0.6716,0.2565,SE4 minus SE1 spread
+d_temp_c,-1.1253,1.9027,-0.5915,0.5542,-4.8545,2.6038,SE4 minus SE1 spread

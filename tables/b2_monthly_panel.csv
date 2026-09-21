@@ -1,0 +1,5 @@
+,pooled_coef,pooled_se,pooled_p,fe_coef,fe_se,fe_p
+wind_share,-1.043,0.208,0.0,-1.187,0.188,0.0
+net_position_share,-0.389,0.036,0.0,-0.189,0.054,0.0006
+total_usage_twh,-1.163,0.822,0.1588,3.474,1.242,0.0056
+temp_c,-1.251,0.204,0.0,-2.393,0.587,0.0001
